@@ -1,0 +1,39 @@
+{
+  "name": "csbs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.9",
+    "@nestjs/core": "^11.1.9",
+    "@pusher/push-notifications-server": "^1.2.7",
+    "@pusher/push-notifications-web": "^1.1.0",
+    "@vercel/analytics": "^1.5.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "firebase": "^12.6.0",
+    "framer-motion": "^12.23.24",
+    "imagekit": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.548.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.2",
+    "next": "14.2.14",
+    "node-fetch": "^3.3.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-onesignal": "^3.4.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "sib-api-v3-sdk": "^8.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
